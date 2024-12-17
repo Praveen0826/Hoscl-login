@@ -25,7 +25,7 @@ const [icon, setIcon] = useState(eyeOff);
      }
   return (
     <div className='w-full flex'>
-        <div className='w-1/2 bg-slate-50 hidden lg:flex justify-center items-center '>
+        <div className='w-1/2 bg-slate-50 hidden  lg:flex justify-center items-center '>
         
         <img src={rightimg} className=''></img>
 
@@ -38,7 +38,7 @@ const [icon, setIcon] = useState(eyeOff);
         
         
         </div>
-        <div className='md:w-1/2 w-full  '>
+        <div className='md:w-1/2 w-full h-[100vh] mt-20 md:mt-1  '>
         <div className='lg:flex justify-center items-center md:mt-14 my-8 bg-white text-2xl font-bold '>
             <div className='flex justify-center'>
             <img src={logo} alt=""  className='h-30 w-40'/>
@@ -47,7 +47,7 @@ const [icon, setIcon] = useState(eyeOff);
           
         </div>
         <div className='flex justify-center items-center  border-gray-400 '>
- <div className=' mx-4  p-6 border-gray-300  border rounded-xl w-[450px]  '>
+ <div className=' mx-4  p-6 border-slate-400 shadow-lg  border rounded-xl w-[450px]  '>
 
 
 
