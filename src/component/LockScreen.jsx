@@ -10,7 +10,7 @@ function LockScreen() {
     <div>
 <div className='flex justify-center items-center mt-3'><img src={logo} alt="" className='h-30 w-40' /></div>
 <div className='flex justify-center items-center  border-gray-400 '>
-                <div className=' mx-4  md:p-6 p-4 border-slate-100  border rounded-xl w-[500px] my-20 '>
+                <div className=' mx-4  md:p-6 p-4 border-slate-100  border rounded-xl w-[500px] my-16 '>
        <h1 className='font-bold text-2xl text-center'>Welcome Back!</h1>
        <div className='flex justify-center mt-6'>
         <img src={avatar} className='w-20 h-20 rounded-full' alt="" />
@@ -38,7 +38,7 @@ function LockScreen() {
 
         
         </div>
-        <div className='flex justify-center items-center  text-slate-600 gap-4 '>
+        <div className='flex justify-center items-center  text-slate-600 gap-4 md:mt-14 mt-6 '>
         <div>Term & Condition</div>
         <div>Privacy</div>
         <div>Help</div>
@@ -46,7 +46,7 @@ function LockScreen() {
        
    
         </div>
-        <div className='flex  justify-center mt-2' >
+        <div className='flex  justify-center mt-1' >
                       <p  className='text-slate-500 text-sm '>Copyright © 2024-Nexcap </p>
                       </div>
 
