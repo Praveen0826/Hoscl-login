@@ -10,7 +10,7 @@ function LockScreen() {
     <div>
 <div className='flex justify-center items-center mt-3'><img src={logo} alt="" className='h-30 w-40' /></div>
 <div className='flex justify-center items-center  border-gray-400 '>
-                <div className=' mx-4  md:p-6 p-4 border-slate-300  border rounded-xl w-[500px] my-20 '>
+                <div className=' mx-4  md:p-6 p-4 border-slate-100  border rounded-xl w-[500px] my-20 '>
        <h1 className='font-bold text-2xl text-center'>Welcome Back!</h1>
        <div className='flex justify-center mt-6'>
         <img src={avatar} className='w-20 h-20 rounded-full' alt="" />
@@ -18,12 +18,12 @@ function LockScreen() {
        <h1 className='text-center mt-3 font-medium'> krishna kumar</h1>
 
        <div className='flex gap-4 justify-center my-6'>
-       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-800' maxlength="1"  type="text" placeholder=""></input>
-       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-800' maxlength="1"  type="text" placeholder=""></input>
-       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-800' maxlength="1"  type="text" placeholder=""></input>
-       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-800' maxlength="1" type="text" placeholder=""></input>
-       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-800' maxlength="1"  type="text" placeholder=""></input>
-       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-800' maxlength="1"  type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-400 rounded-md' maxlength="1"  type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-400 rounded-md' maxlength="1"  type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-400 rounded-md' maxlength="1"  type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-400 rounded-md' maxlength="1" type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-400 rounded-md' maxlength="1"  type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border-2 border-slate-400 rounded-md' maxlength="1"  type="text" placeholder=""></input>
        </div>
        <div className=' flex justify-center'>
         <button className='md:w-[80%] w-[100%] bg-[#506ee4] font-medium rounded-md text-white py-2'>Login</button>
@@ -39,14 +39,14 @@ function LockScreen() {
         
         </div>
         <div className='flex justify-center items-center  text-slate-600 gap-4 '>
-        <div>Term&Condition</div>
+        <div>Term & Condition</div>
         <div>Privacy</div>
         <div>Help</div>
         <div>English</div>
        
    
         </div>
-        <div className='flex  justify-center mt-3' >
+        <div className='flex  justify-center mt-2' >
                       <p  className='text-slate-500 text-sm '>Copyright © 2024-Nexcap </p>
                       </div>
 
