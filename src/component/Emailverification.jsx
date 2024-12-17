@@ -35,7 +35,7 @@ function Emailverification() {
 
         
         </div>
-        <div className='flex md:mt-16 mt-6 justify-center' >
+        <div className='flex md:mt-16 mt-10 justify-center' >
                       <p  className='text-slate-500 text-sm '>Copyright © 2024-Nexcap </p>
                       </div>
         
