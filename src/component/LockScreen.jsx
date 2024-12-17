@@ -38,7 +38,7 @@ function LockScreen() {
 
         
         </div>
-        <div className='flex justify-center items-center  text-slate-600 gap-4 md:mt-14 mt-6 '>
+        <div className='flex justify-center items-center  text-slate-600 gap-4 md:mt-20 mt-6 '>
         <div>Term & Condition</div>
         <div>Privacy</div>
         <div>Help</div>
