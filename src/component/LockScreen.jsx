@@ -26,7 +26,7 @@ function LockScreen() {
        <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border border-slate-400' maxlength="1"  type="text" placeholder=""></input>
        </div>
        <div className=' flex justify-center'>
-        <button className='w-[80%] bg-[#506ee4] font-medium rounded-md text-white py-2'>Login</button>
+        <button className='md:w-[80%] w-[100%] bg-[#506ee4] font-medium rounded-md text-white py-2'>Login</button>
        </div>
         
          
@@ -38,7 +38,7 @@ function LockScreen() {
 
         
         </div>
-        <div className='flex justify-center items-center  text-slate-600 gap-4 mt-10'>
+        <div className='flex justify-center items-center  text-slate-600 gap-4 '>
         <div>Term&Condition</div>
         <div>Privacy</div>
         <div>Help</div>
