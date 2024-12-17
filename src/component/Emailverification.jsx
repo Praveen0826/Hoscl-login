@@ -16,7 +16,7 @@ function Emailverification() {
         
         
         </div>
-        <div className='md:w-1/2 w-full md:h-[100vh] mt-28 md:mt-0  '>
+        <div className='md:w-1/2 w-full md:h-[100vh] mt-36 md:mt-0  '>
         <div className='lg:flex justify-center  items-center md:mt-36 my-8 bg-white text-2xl font-bold '>
             <div className='flex justify-center'>
             <img src={logo} alt=""  className='h-30 w-40'/>
