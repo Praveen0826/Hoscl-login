@@ -47,7 +47,7 @@ const [icon, setIcon] = useState(eyeOff);
           
         </div>
         <div className='flex justify-center items-center  border-gray-400 '>
- <div className=' mx-4  p-6 border-slate-400 shadow-lg  border rounded-xl w-[450px]  '>
+ <div className=' mx-4  p-6 border-gray-400  border rounded-xl w-[450px]  '>
 
 
 
