@@ -25,6 +25,9 @@ function LockScreen() {
        <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border border-slate-400' maxlength="1"  type="text" placeholder=""></input>
        <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border border-slate-400' maxlength="1"  type="text" placeholder=""></input>
        </div>
+       <div className=' flex justify-center'>
+        <button className='w-[80%] bg-[#506ee4] font-medium rounded-md text-white py-2'>Login</button>
+       </div>
         
          
         
