@@ -18,12 +18,12 @@ function LockScreen() {
        <h1 className='text-center mt-3 font-medium'> krishna kumar</h1>
 
        <div className='flex gap-4 justify-center my-6'>
-       <input className='h-[3rem] w-[3rem] text-center border border-slate-400' maxlength="1" class="input" type="text" placeholder=""></input>
-       <input className='h-[3rem] w-[3rem] text-center border border-slate-400' maxlength="1" class="input" type="text" placeholder=""></input>
-       <input className='h-[3rem] w-[3rem] text-center border border-slate-400' maxlength="1" class="input" type="text" placeholder=""></input>
-       <input className='h-[3rem] w-[3rem] text-center border border-slate-400' maxlength="1" class="input" type="text" placeholder=""></input>
-       <input className='h-[3rem] w-[3rem] text-center border border-slate-400' maxlength="1" class="input" type="text" placeholder=""></input>
-       <input className='h-[3rem] w-[3rem] text-center border border-slate-400' maxlength="1" class="input" type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border border-slate-400' maxlength="1"  type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border border-slate-400' maxlength="1"  type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border border-slate-400' maxlength="1"  type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border border-slate-400' maxlength="1" type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border border-slate-400' maxlength="1"  type="text" placeholder=""></input>
+       <input className='lg:h-[3rem] h-[2.5rem] lg:w-[3rem] w-[2.5rem] text-center border border-slate-400' maxlength="1"  type="text" placeholder=""></input>
        </div>
         
          
