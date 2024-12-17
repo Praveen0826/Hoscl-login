@@ -38,7 +38,7 @@ const [icon, setIcon] = useState(eyeOff);
         
         
         </div>
-        <div className='md:w-1/2 w-full h-[100vh] mt-20 md:mt-1  '>
+        <div className='md:w-1/2 w-full md:h-[100vh] mt-20 md:mt-1  '>
         <div className='lg:flex justify-center items-center md:mt-14 my-8 bg-white text-2xl font-bold '>
             <div className='flex justify-center'>
             <img src={logo} alt=""  className='h-30 w-40'/>
@@ -47,7 +47,7 @@ const [icon, setIcon] = useState(eyeOff);
           
         </div>
         <div className='flex justify-center items-center  border-gray-400 '>
- <div className=' mx-4  p-6 border-gray-400  border rounded-xl w-[450px]  '>
+ <div className=' mx-4  p-6 border-slate-100  border rounded-xl w-[450px]  '>
 
 
 
@@ -103,7 +103,7 @@ const [icon, setIcon] = useState(eyeOff);
                    
                       </div>
                       </div>
-                      <div className='flex md:mt-14 mt-6 justify-center' >
+                      <div className='flex md:mt-12 mt-6 justify-center' >
                       <p  className='text-slate-500 text-sm '>Copyright © 2024-Nexcap </p>
                       </div>
                       
