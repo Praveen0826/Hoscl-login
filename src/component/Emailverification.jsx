@@ -27,7 +27,7 @@ function Emailverification() {
                 <div className=' mx-4  md:p-6 p-4 border-slate-200  border rounded-xl w-[500px]  '>
         <h1 className='text-center font-bold md:text-2xl text-xl '>Verify your Email</h1>
         <p className='text-center text-sm text-slate-500 my-2'>We've sent a link to your email ter4@example.com. Please follow the link inside to continue</p>
-        <p className='text-center text-base font-normal mt-2'>Don't receive an email?<span className='text-[#506ee4]'> Resent Link</span></p>
+        <p className='text-center text-base font-normal mt-2'>Don't receive an email?<span className='text-[#506ee4] cursor-pointer'><a> Resent Link</a></span></p>
          
         
 
