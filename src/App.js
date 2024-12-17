@@ -1,11 +1,14 @@
 import './App.css';
-import Newlogin from './component/Newlogin';
+import Emailverification from './component/Emailverification';
+// import Newlogin from './component/Newlogin';
+
 
 
 function App() {
   return (
     <div className=''>
-      <Newlogin/>
+      {/* <Newlogin/> */}
+      <Emailverification/>
      
     </div>
   );
