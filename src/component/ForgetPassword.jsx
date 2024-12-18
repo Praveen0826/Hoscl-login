@@ -43,7 +43,7 @@ function ForgetPassword() {
          </div>
          <button className='w-[100%] bg-[#506ee4] my-4 py-2 rounded-md text-white font-medium '>Sign in </button>
 
-         <p className='text-center text-base'>Return to<span className='text-[#506ee4]'> Login</span></p>
+         <p className='text-center text-base'>Return to<span className='text-[#506ee4] cursor-pointer'><a> Login</a></span></p>
     
     
     
