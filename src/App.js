@@ -8,6 +8,7 @@ import Createpin from './component/Createpin';
 import PinSection from './component/pin';
 import Resetpin from './component/Resetpin';
 import Signup from '../src/component/Signup'
+import Login from './component/Login';
 
 
 
@@ -27,6 +28,7 @@ function App() {
       <Route path='/Forgotpassword' element={ <ForgetPassword/>}/>
       <Route path='/lockscreen' element={ <LockScreen/>}/>
       <Route path='/PinSection' element={ <PinSection/>}/>
+      {/* <Route path='/test' element={ <Login/>}/> */}
     </Routes>
     </BrowserRouter>
   );

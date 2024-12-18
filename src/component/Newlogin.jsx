@@ -38,10 +38,10 @@ const [icon, setIcon] = useState(eyeOff);
         
         
         </div>
-        <div className='md:w-1/2 w-full md:h-[100vh] mt-20 md:mt-1  '>
+        <div className='md:w-1/2 w-full md:h-[100vh] mt-20 md:mt-0  '>
         <div className='lg:flex justify-center items-center md:mt-14 my-8 bg-white text-2xl font-bold '>
             <div className='flex justify-center'>
-            <img src={logo} alt=""  className='h-30 w-40'/>
+            <img src={logo} alt="" className='h-30 w-40'/>
                 </div>
             
           
@@ -62,7 +62,7 @@ const [icon, setIcon] = useState(eyeOff);
 
         <div class="relative">
         <input type="text" 
-               class=" w-[100%] pl-4 pr-4 py-2 border rounded-lg md:text-base text-sm" />
+               class=" w-[100%] pl-4 pr-4 py-2 border rounded-lg md:text-base text-sm focus:outline-none" />
         <div class="absolute inset-y-0 right-2 pl-3 
                     flex items-center 
                     pointer-events-none">
@@ -89,7 +89,7 @@ const [icon, setIcon] = useState(eyeOff);
                           value={password}
                           onChange={(e) => setPassword(e.target.value)}
                           autoComplete="current-password"
-                          className='px-2 py-2 w-[100%] md:text-base text-sm  border rounded-lg'
+                          className='px-2 py-2 w-[100%] md:text-base text-sm  border rounded-lg focus:outline-none'
                      />
                      <span class="flex justify-around items-center" onClick={handleToggle}>
                           <Icon class="absolute mr-10" icon={icon} size={15}/>

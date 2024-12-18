@@ -6,16 +6,20 @@ import {eyeOff} from 'react-icons-kit/feather/eyeOff';
 import {eye} from 'react-icons-kit/feather/eye'
 import logo from "../images/logonewimage/1.png"
 import { IoIosPerson } from "react-icons/io";
-import 'react-phone-number-input/style.css'
-import PhoneInput from 'react-phone-number-input'
-import ReactCountryDropdown from "react-country-dropdown";
+// import 'react-phone-number-input/style.css'
+// import PhoneInput from 'react-phone-number-input'
+// import ReactCountryDropdown from "react-country-dropdown";
 import Country from './Country';
+// import { useState } from 'react';
+import { PhoneInput } from 'react-international-phone';
+// import 'react-international-phone/style.css';
 
 function Signup() {
     const [password, setPassword] = useState("");
 const [type, setType] = useState('password');
 const [icon, setIcon] = useState(eyeOff);
 const [value, setValue] = useState()
+const [phone, setPhone] = useState('');
 
 const handleCountryChange = (country) => {
     console.log(country);
@@ -68,7 +72,7 @@ const handleCountryChange = (country) => {
 
         <div class="relative">
         <input type="text" 
-               class=" w-[100%] pl-4 pr-4 py-2 border rounded-lg md:text-base text-sm" />
+               class=" w-[100%] pl-4 pr-4 py-2 border rounded-lg md:text-base text-sm focus:outline-none" />
         <div class="absolute inset-y-0 right-2 pl-3 
                     flex items-center 
                     pointer-events-none">
@@ -83,7 +87,7 @@ const handleCountryChange = (country) => {
 
         <div class="relative">
         <input type="text" 
-               class=" w-[100%] pl-4 pr-4 py-2 border rounded-lg md:text-base text-sm" />
+               class=" w-[100%] pl-4 pr-4 py-2 border rounded-lg md:text-base text-sm focus:outline-none" />
         <div class="absolute inset-y-0 right-2 pl-3 
                     flex items-center 
                     pointer-events-none">
@@ -101,7 +105,7 @@ const handleCountryChange = (country) => {
                           value={password}
                           onChange={(e) => setPassword(e.target.value)}
                           autoComplete="current-password"
-                          className='px-2 py-2 w-[100%] md:text-base text-sm  border rounded-lg'
+                          className='px-2 py-2 w-[100%] md:text-base text-sm  border rounded-lg focus:outline-none'
                      />
                      <span class="flex justify-around items-center" onClick={handleToggle}>
                           <Icon class="absolute mr-10" icon={icon} size={15}/>
@@ -110,14 +114,22 @@ const handleCountryChange = (country) => {
                       <div>
 
                       <h1  className='font-semibold py-3'>Phone Number </h1>
-                      <div className=''>
-                      <PhoneInput
+                      <div className='w-full'>
+                      {/* <PhoneInput
       placeholder="Enter phone number"
       value={value}
       className=''
       
       onChange={setValue}
-     />
+     /> */}
+
+      <PhoneInput
+        defaultCountry="ind"
+        value={phone}
+        className='w-full'
+        onChange={(phone) => setPhone(phone)}
+       
+      />
                       </div>
                       <div>
                       <h1  className='font-semibold py-3'>Country </h1>
