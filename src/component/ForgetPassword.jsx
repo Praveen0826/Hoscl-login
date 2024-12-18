@@ -33,7 +33,7 @@ function ForgetPassword() {
      
              <div class="relative">
              <input type="text" 
-                    class=" w-[100%] pl-4 pr-4 py-2 border mx-2 rounded-lg md:text-base text-sm" />
+                    class=" w-[100%] pl-4 pr-4 py-2 border rounded-lg md:text-base text-sm" />
              <div class="absolute inset-y-0 right-2 pl-3 
                          flex items-center 
                          pointer-events-none">
