@@ -12,6 +12,8 @@ function LockScreen() {
     const newPin = [...pin];
     newPin[index] = value;
     setPin(newPin);
+    
+   
 
     // Move to the next input box
     if (value && index < 5) {
@@ -39,6 +41,10 @@ function LockScreen() {
       inputRefs.current[filledIndex + 1].focus();
     }
   };
+
+  function handlesubmit(){
+    alert(pin)
+  }
     
      
   return (
@@ -81,7 +87,7 @@ function LockScreen() {
     </div>
   
        <div className=' flex justify-center'>
-        <button className='md:w-[80%] w-[100%] bg-[#506ee4] font-medium rounded-md text-white py-2'>Login</button>
+        <button className='md:w-[80%] w-[100%] bg-[#506ee4] font-medium rounded-md text-white py-2' onClick={ handlesubmit}>Login</button>
        </div>
         
          

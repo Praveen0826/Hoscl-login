@@ -24,6 +24,7 @@ function App() {
       
       <Route path='/Forgotpassword' element={ <ForgetPassword/>}/>
       <Route path='/lockscreen' element={ <LockScreen/>}/>
+      <Route path='/Si' element={ <LockScreen/>}/>
     </Routes>
     </BrowserRouter>
   );
