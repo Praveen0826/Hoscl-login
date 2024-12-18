@@ -68,3 +68,70 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+code for mobile phone number with +91
+
+npm install react-international-phone
+
+import { useState } from 'react';
+import { PhoneInput } from 'react-international-phone';
+import 'react-international-phone/style.css';
+
+const App = () => {
+  const [phone, setPhone] = useState('');
+
+  return (
+    <div>
+      <PhoneInput
+        defaultCountry="ua"
+        value={phone}
+        onChange={(phone) => setPhone(phone)}
+      />
+    </div>
+  );
+};
+
+
+code for mobile phone number without +91 with flag
+
+ import 'react-phone-number-input/style.css'
+ import PhoneInput from 'react-phone-number-input'
+ import ReactCountryDropdown from "react-country-dropdown";
+
+ const [value, setValue] = useState()
+ <PhoneInput
+      placeholder="Enter phone number"
+      value={value}
+      className=''
+      
+      onChange={setValue}
+     />
+
+
+     country input code
+
+     npm i react-country-state-fields
+
+     or
+
+     npm i react-country-dropdown
+
+     import { CountryField,StateField, VisitorAPIComponents } from 'react-country-state-fields';
+import React, { useState } from 'react';
+
+function Country() {
+    const [country, setCountry] = useState({}); // the selected country
+  const [state, setState] = useState({}); // the selected state
+  const visitorApiPrjectId = ""; // assign your project ID here
+  return (
+    <VisitorAPIComponents projectId={visitorApiPrjectId} handleCountryChange={(countryObj) => setCountry(countryObj)} handleStateChange={(stateObj) => setState(stateObj)}>
+        <div className=''>  <CountryField  label="" className="rounded-xl bg-slate-300"></CountryField></div>
+    
+      {/* <StateField label="State/Province"></StateField> */}
+    </VisitorAPIComponents>
+  )
+}
+
+export default Country
