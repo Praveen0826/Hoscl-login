@@ -18,7 +18,7 @@ function App() {
     <BrowserRouter>
     <Routes>
 
-    <Route path='/' element={ <Signup/>}/>
+    <Route path='/' element={<Signup/>}/>
     <Route path='/Resetpin' element={<Resetpin/>}/>
       <Route path='/Createpin' element={<Createpin/>}/>
       <Route path='/login' element={<Newlogin/>}/>
