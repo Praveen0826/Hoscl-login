@@ -43,7 +43,10 @@ function LockScreen() {
   };
 
   function handlesubmit(){
+    console.log(pin);
     alert(pin)
+   
+    
   }
     
      
@@ -87,7 +90,7 @@ function LockScreen() {
     </div>
   
        <div className=' flex justify-center'>
-        <button className='md:w-[80%] w-[100%] bg-[#506ee4] font-medium rounded-md text-white py-2' onClick={ handlesubmit}>Login</button>
+        <button className='md:w-[80%] w-[100%] bg-[#506ee4] font-medium rounded-md text-white py-2' onClick={handlesubmit}>Login</button>
        </div>
         
          

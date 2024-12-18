@@ -76,7 +76,7 @@ const PinSection = () => {
 
   return (
 
-    <div className="max-w-md mx-auto  bg-white  rounded-lg">
+    <div className="max-w-md mx-auto  bg-white rounded-lg">
 
 <h1 className='font-bold md:text-2xl text-2xl ml-3 mt-2'>Reset pin ?</h1>
 <p  className=" text-sm text-slate-500 my-2 ml-3">Enter New Pin & Confirm Pin to get inside</p>
